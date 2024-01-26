@@ -9,6 +9,7 @@ import Article from './page/Article';
 import PMcontent from './page/PM_content';
 import Noise_content from './page/Noise_content';
 import Traffic from './page/Traffic';
+import TestMap from './page/TestMap';
 
 function App() {
   document.title = 'React API TEST'
@@ -25,6 +26,7 @@ function App() {
             <Route path="/pmcontent" element={<PMcontent/>}></Route>
             <Route path="/noisecontent" element={<Noise_content/>}></Route>
             <Route path="/traffic" element={<Traffic/>}></Route>
+            <Route path="/TestMap" element={<TestMap/>}></Route>
           </Route>
         </Routes>
       </BrowserRouter>

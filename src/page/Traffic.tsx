@@ -101,7 +101,6 @@ const Traffic = () => {
           const infoWindow = new window.google.maps.InfoWindow({
             content: `
               <div>
-                <strong>${location.org}</strong><br/>
                 รายละเอียดสถานที่: ${location.name}<br/>
                 <img src="${location.photo}" alt="Location Photo" style="max-width: 150px; height: auto;"/>
               </div>
