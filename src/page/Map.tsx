@@ -117,7 +117,7 @@ const Map = () => {
           onChange={(e) => setSearchProvince(e.target.value)}
           placeholder='Enter province name'
         />
-        <button onClick={handleSearch}>Search</button>
+        <button onClick={handleSearch}>Search(ค้นหา)</button>
         <div id='map' style={{ height: '600px', width: '100%' }}></div>
         <br />
         <DetailsPM />
